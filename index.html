@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ian Barquin · Programador de videojuegos</title>
+  <meta name="description" content="Portfolio de Ian Barquin, programador de videojuegos. Monoliths, un roguelike de estrategia por turnos que ya podés descargar y jugar.">
+  <meta name="theme-color" content="#120e0b">
+  <meta property="og:title" content="Ian Barquin · Programador de videojuegos">
+  <meta property="og:description" content="Hago juegos que se pueden descargar y jugar. Probá Monoliths, roguelike de estrategia por turnos.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://img.itch.zone/aW1nLzI0Nzk2NzAwLnBuZw==/original/yqBRyk.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 2l12 7v14l-12 7-12-7V9z' fill='%23ff5a1f'/%3E%3Cpath d='M12 11h8v10h-8z' fill='%23120e0b'/%3E%3C/svg%3E">
+  <link rel="preload" href="assets/fonts/big-shoulders-display-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/hanken-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip" href="#monoliths">Saltar al contenido</a>
+
+  <header class="nav">
+    <a class="mark" href="#top" aria-label="Ian Barquin, inicio">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2l12 7v14l-12 7-12-7V9z"/><path class="cut" d="M12 11h8v10h-8z"/></svg>
+      <span>IB</span>
+    </a>
+    <nav aria-label="Principal">
+      <a href="#monoliths">Juego</a>
+      <a href="#mas">Más trabajo</a>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#contacto" class="nav-cta">Contacto</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO: tablero hexagonal interactivo -->
+    <section class="hero">
+      <canvas id="board" aria-hidden="true"></canvas>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <h1><span class="line"><span>Ian</span></span> <span class="line"><span>Barquin</span></span></h1>
+        <p class="lede">Programador de videojuegos. Hago juegos que se pueden descargar y jugar hoy.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://ian-barquin.itch.io/monoliths" target="_blank" rel="noopener">Jugar Monoliths <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 5l5 5-5 5"/></svg></a>
+          <a class="btn btn-ghost" href="#contacto">Escribime</a>
+        </div>
+      </div>
+      <p class="hint" id="hint" aria-hidden="true">Tocá una casilla para poner una figura</p>
+    </section>
+
+    <!-- JUEGO DESTACADO -->
+    <section class="slab" id="monoliths" aria-labelledby="monoliths-title">
+      <div class="slab-text">
+        <h2 id="monoliths-title">Monoliths</h2>
+        <p class="slab-lede">Armá tu equipo de figuras y peleá contra enemigos en un roguelike de estrategia por turnos.</p>
+        <dl class="facts">
+          <div><dt>Género</dt><dd>Roguelike, estrategia por turnos</dd></div>
+          <div><dt>Plataforma</dt><dd>Windows</dd></div>
+          <div><dt>Precio</dt><dd>Gratis</dd></div>
+          <div><dt>Estado</dt><dd>En desarrollo</dd></div>
+          <div><dt>Descarga</dt><dd>85 MB</dd></div>
+        </dl>
+        <a class="btn btn-dark" href="https://ian-barquin.itch.io/monoliths" target="_blank" rel="noopener">Descargar en itch.io <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 5l5 5-5 5"/></svg></a>
+      </div>
+      <ul class="shots" aria-label="Capturas de Monoliths">
+        <li><img loading="lazy" width="347" height="195" alt="Tablero hexagonal de Monoliths visto desde arriba, en una sala de madera" src="https://img.itch.zone/aW1hZ2UvNDE2MDI3NS8yNDc5NjY0NC5wbmc=/347x500/uYD1uu.png"></li>
+        <li><img loading="lazy" width="347" height="195" alt="Sala naranja de Monoliths con un mapa y una estantería de figuras" src="https://img.itch.zone/aW1hZ2UvNDE2MDI3NS8yNDc5NjY0OC5wbmc=/347x500/cZPZce.png"></li>
+        <li><img loading="lazy" width="347" height="195" alt="Captura de Monoliths, escena 3" src="https://img.itch.zone/aW1hZ2UvNDE2MDI3NS8yNDc5NjY1Ny5wbmc=/347x500/N9WqRL.png"></li>
+        <li><img loading="lazy" width="347" height="195" alt="Captura de Monoliths, escena 4" src="https://img.itch.zone/aW1hZ2UvNDE2MDI3NS8yNDc5NjY1OS5wbmc=/347x500/hE8m9U.png"></li>
+        <li><img loading="lazy" width="347" height="195" alt="Arena verdosa de Monoliths con figuras en el tablero y un panel de información" src="https://img.itch.zone/aW1hZ2UvNDE2MDI3NS8yNDc5NjY2OC5wbmc=/347x500/G0z484.png"></li>
+      </ul>
+    </section>
+
+    <!-- MÁS TRABAJO -->
+    <section class="more" id="mas" aria-labelledby="mas-title">
+      <h2 id="mas-title">Más trabajo</h2>
+      <ul class="rows">
+        <li>
+          <a href="https://pabloheit.itch.io/dynamo" target="_blank" rel="noopener">
+            <span class="row-name">Dynamo</span>
+            <span class="row-desc">Prototipo de juego de ritmo de pabloHeit. Mi parte: programación.</span>
+            <span class="row-go">itch.io <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 5l5 5-5 5"/></svg></span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.artstation.com/ianbarquin" target="_blank" rel="noopener">
+            <span class="row-name">Arte</span>
+            <span class="row-desc">También dibujo. Mi galería está en ArtStation.</span>
+            <span class="row-go">ArtStation <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 5l5 5-5 5"/></svg></span>
+          </a>
+        </li>
+        <li>
+          <a href="https://ian-barquin.itch.io" target="_blank" rel="noopener">
+            <span class="row-name">Todos mis juegos</span>
+            <span class="row-desc">Mi perfil completo, con todo lo que publico.</span>
+            <span class="row-go">itch.io <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 5l5 5-5 5"/></svg></span>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section class="about" id="sobre-mi" aria-labelledby="about-title">
+      <div class="portrait">
+        <img src="assets/img/foto.jpeg" width="800" height="800" loading="lazy" alt="Retrato de Ian Barquin, con anteojos y camisa a cuadros azul">
+      </div>
+      <div class="about-text">
+        <h2 id="about-title">Sobre mí</h2>
+        <p class="statement">Responsable y trabajador. Aprendo de cada experiencia y sigo ampliando lo que sé de informática.</p>
+        <p class="statement-sub">Programar en equipo es lo que más me gusta.</p>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="contact" id="contacto" aria-labelledby="contact-title">
+      <h2 id="contact-title">Hablemos</h2>
+      <ul class="rows rows-contact">
+        <li><a href="https://wa.me/5491120446377" target="_blank" rel="noopener"><span class="row-name">WhatsApp</span><span class="row-desc">+54 9 11 2044-6377</span><span class="row-go"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 5l5 5-5 5"/></svg></span></a></li>
+        <li><a href="https://www.linkedin.com/in/ian-barquin-2b032a288/" target="_blank" rel="noopener"><span class="row-name">LinkedIn</span><span class="row-desc">ian-barquin</span><span class="row-go"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 5l5 5-5 5"/></svg></span></a></li>
+        <li><a href="https://github.com/Tanderrrrr" target="_blank" rel="noopener"><span class="row-name">GitHub</span><span class="row-desc">Tanderrrrr</span><span class="row-go"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 5l5 5-5 5"/></svg></span></a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <span>© 2026 Ian Barquin</span>
+    <a href="#top">Volver arriba</a>
+  </footer>
+
+  <script src="assets/js/board.js"></script>
+</body>
+</html>
